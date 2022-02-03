@@ -129,7 +129,7 @@ p {
 
 .spanish {
   position: absolute;
-  top: 800px;
+  top: 900px;
   left: 30px;
 }
 
@@ -140,7 +140,7 @@ p {
 
 .dad {
   position: absolute;
-  top: 900px;
+  top: 950px;
   right: 30px;
   max-width: 70%;
 }
