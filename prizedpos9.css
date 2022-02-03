@@ -1,0 +1,151 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto/Roboto-BoldItalic.ttf") format("TrueType");
+}
+
+@font-face {
+  font-family: "RubikB";
+  src: url("Rubik_Beastly/RubikBeastly-Regular.ttf") format("TrueType");
+}
+
+@font-face {
+  font-family:"Montserrat";
+  src: url("Montserrat/Monserrat-VariableFont_wght.ttf") format("TrueType");
+}
+
+p {
+  font-family: "Montserrat";
+  font-size: 48px;
+  color: pink;
+  text-align: center;
+  background-color: darkseagreen;
+}
+
+.bigtext {
+  font-family: "Roboto";
+  text-align: center;
+  font-size: 5em;
+  color: darkseagreen;
+}
+
+.que1 {
+  position: relative;
+  width: 200px;
+  top: 150px;
+  left: 40px;
+  background-color: pink;
+  font-family: "Roboto";
+  font-size: 30px;
+  color: antiquewhite;
+  padding: 20px;
+  border: 20px groove palevioletred;
+}
+
+.que2 {
+  background-color: antiquewhite;
+  color: palevioletred;
+  font-family: "Roboto";
+  font-size: 30px;
+  padding: 20px;
+  width: 200px;
+  top: 500px;
+  right: 60px;
+  position: absolute;
+  border: 20px dotted darkseagreen;
+}
+
+.que3 {
+  background-color: pink;
+  color: antiquewhite;
+  font-family:"Roboto";
+  font-size: 30px;
+  padding: 20px;
+  width: 250px;
+  right: 30px;
+  top: 300px;
+  position: absolute;
+  border: 20px double palevioletred;
+}
+
+.que4 {
+  background-color: antiquewhite;
+  color: palevioletred;
+  font-family: "Roboto";
+  padding: 20px;
+  width: 500px;
+  position: absolute;
+  left: 400px;
+  top: 350px;
+  font-size: 30px;
+  border: 20px dashed darkseagreen;
+}
+
+.que5 {
+  background-color: pink;
+  color: antiquewhite;
+  font-family: "Roboto";
+  font-size: 30px;
+  padding: 20px;
+  width: 600px;
+  position: absolute;
+  top: 550px;
+  left: 350px;
+  border: 20px solid palevioletred;
+}
+
+.selena {
+  position: absolute;
+  top: 150px;
+  left: 30px;
+}
+
+.crying {
+  position: absolute;
+  top: 300px;
+  right: 400px;
+}
+
+.nails {
+  position: absolute;
+  top: 750px;
+  left: 350px;
+}
+
+.que6 {
+  background-color: antiquewhite;
+  color: palevioletred;
+  font-family: "Roboto";
+  font-size: 30px;
+  padding: 20px;
+  width: 600px;
+  position: absolute;
+  top: 750px;
+  right: 450px;
+  border: 20px solid palevioletred;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+}
+
+.spanish {
+  position: absolute;
+  top: 800px;
+  left: 30px;
+}
+
+.spanishsize {
+  height: auto;
+  width: 300px;
+}
+
+.dad {
+  position: absolute;
+  top: 900px;
+  right: 30px;
+  max-width: 70%;
+}
+
+.dadsize {
+  height: auto;
+  width: 400px;
+}
