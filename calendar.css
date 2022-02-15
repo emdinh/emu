@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "RubikB";
+  src: url("Rubik_Beastly/RubikBeastly-Regular.ttf") format("TrueType");
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  flex-flow: row;
+  flex: 0.3;
+}
+
+.row1 {
+  display: flex;
+  flex-flow: row;
+  flex: 1;
+}
+
+.row2 {
+  display: flex;
+  flex-flow: row;
+  flex: 1;
+}
+
+.row3 {
+  display: flex;
+  flex-flow: row;
+  flex: 1;
+}
+
+.row4 {
+  display: flex;
+  flex-flow: row;
+  flex: 1;
+}
+
+.row5 {
+  display: flex;
+  flex-flow: row;
+  flex: 1;
+}
+
+.days {
+  display: flex;
+  flex-flow: row;
+  flex: 0.1;
+  background-color: hotpink;
+}
+
+.sunday {
+  color: antiquewhite;
+  flex: 1;
+  text-align: center;
+}
+
+.monday {
+  color: red;
+  flex: 1;
+  text-align: center;
+}
+
+.tuesday {
+  color: antiquewhite;
+  flex: 1;
+  text-align: center;
+}
+
+.wednesday {
+  color: red;
+  flex: 1;
+  text-align: center;
+}
+
+.thursday {
+  color: antiquewhite;
+  flex: 1;
+  text-align: center;
+}
+
+.friday {
+  color: red;
+  flex: 1;
+  text-align: center;
+}
+
+.saturday {
+  color: antiquewhite;
+  flex: 1;
+  text-align: center;
+}
+
+.month {
+  background-color: palevioletred;
+  color: white;
+  text-align: center;
+  flex: 1;
+  font-family: "RubikB";
+  font-size: 20px;
+}
+
+.date {
+  background-color: pink;
+  text-align: center;
+  color: palevioletred;
+  flex: 1;
+  font-family: "RubikB";
+  font-size: 20px;
+}
+
+.year {
+  background-color: palevioletred;
+  color: white;
+  flex: 1;
+  text-align: center;
+  font-family: "RubikB";
+  font-size: 20px;
+}
+
+.day1 {
+  background-color: crimson;
+  flex: 1;
+}
+
+.day2 {
+  background-color: antiquewhite;
+  flex: 1;
+  color: darkred;
+  text-align: center;
+  font-family: "RubikB";
+  font-size: 30px;
+}
+
+.day3 {
+  background-color: crimson;
+  flex: 1;
+}
+
+.day4 {
+  background-color: antiquewhite;
+  flex: 1;
+}
+
+.day5 {
+  background-color: crimson;
+  flex: 1;
+}
+
+.day6 {
+  background-color: antiquewhite;
+  flex: 1;
+}
+
+.day7 {
+  background-color: crimson;
+  flex: 1;
+}
