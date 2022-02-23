@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  20% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-30px);
+  }
+
+  50% {
+    transform: translateY(0);
+  }
+
+  60% {
+    transform: translateY(-15px);
+  }
+
+  80% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+#canvas {
+  width: 300px;
+  height: 400px;
+  margin: 50px auto;
+  }
+
+#head {
+  position: absolute;
+  top: 300px;
+  width: 0;
+  height: 0;
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
+  border-top: 300px solid bisque;
+}
+
+#ear1 {
+  position: absolute;
+  top: 200px;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid bisque;
+}
+
+#pink1 {
+  position: absolute;
+  top: 225px;
+  left: 775px;
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 70px solid pink;
+}
+
+#ear2 {
+  position: absolute;
+  top: 200px;
+  right: 645px;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid bisque;
+}
+
+#pink2 {
+  position: absolute;
+  top: 225px;
+  right: 670px;
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 70px solid pink;
+}
+
+#lefteye {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 300px;
+  left: 100px;
+  background: black;
+  border-radius: 50%
+}
+
+#righteye {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 250px;
+  left: 240px;
+  background: black;
+  border-radius: 50%
+}
+
+#nose {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 300px;
+  left: 175px;
+  background: saddlebrown;
+  border-radius: 50%
+}
+
+#knifehandle {
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  top: 500px;
+  background: black;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: bounce;
+}
+
+#knifebutt {
+  width: 50px;
+  height: 50px;
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 500px;
+  left: 720px;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: bounce;
+}
+
+#knife {
+  width: 250px;
+  height: 50px;
+  position: absolute;
+  top: 500px;
+  left: 840px;
+  background: gray;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: bounce;
+}
+
+#knifetip {
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid gray;
+  border-right: 50px solid transparent;
+  position: absolute;
+  top: 500px;
+  right: 652px;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: bounce;
+}
+
+#tongue {
+  width: 50px;
+  height: 100px;
+  background: pink;
+  position: absolute;
+  top: 500px;
+  left: 920px;
+}
+
+#tonguebot {
+  width: 50px;
+  height: 50px;
+  background: pink;
+  border-radius: 50%;
+  position: absolute;
+  top: 570px;
+  left: 920px;
+}
+
+.home {
+  position: absolute;
+  top: 250px;
+  left: 890px;
+}
