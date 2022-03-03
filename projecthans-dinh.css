@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('GMAIL.png');
+  background-repeat: no-repeat;
+}
+
+@font-face {
+  font-family: "SourceCode";
+  src: url("SourceCodePro-VariableFont_wght.ttf") format("TrueType");
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("HelveticaNeue.ttc") format("TrueType");
+}
+
+.subjectline {
+  font-family: "Helvetica";
+  font-size: 45px;
+  position: absolute;
+  top: 258px;
+  left: 655px;
+}
+
+#circle {
+  width: 90px;
+  height: 90px;
+  background: #F0F3F4;
+  border-radius: 50%;
+  position: absolute;
+  top: 365px;
+  left: 545px;
+}
+
+.from {
+  font-family: "Helvetica";
+  font-size: 30px;
+  position: absolute;
+  top: 370px;
+  left: 655px;
+}
+
+.sb {
+  font-family: "Helvetica";
+  font-size: 30px;
+  position: absolute;
+  top: 410px;
+  left: 655px;
+  color: gray;
+}
+
+.container {
+  display: inline-block;
+  position: absolute;
+  top: 500px;
+  left: 655px;
+}
+
+.typed-out {
+  font-family: "SourceCode";
+  font-size: 30px;
+  color: red;
+  white-space: normal;
+}
+
+.email {
+  font-family: "SourceCode";
+  font-size: 30px;
+  color: grey;
+  white-space: normal;
+  max-height: 400px;
+  max-width: 700px;
+  overflow-y: scroll;
+}
